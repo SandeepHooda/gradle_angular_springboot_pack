@@ -12,7 +12,8 @@ task deleteStaticFolder(type: Delete) {  <br/>
 	} <br/>
 } <br/>
 processResources.dependsOn('ui:build') <br/>
-
+# angular.json
+"outputPath": "../src/main/resources/static",
 # ui gradle:
 plugins { <br/>
   id "com.github.node-gradle.node" version "3.1.1" <br/>
